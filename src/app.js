@@ -23,7 +23,7 @@ window.onload = function() {
     }
   }
   let formattedDomains = domains.join("<br>");
-
+  console.log(domains);
   console.log(formattedDomains);
 
   document.querySelector("#domain").innerHTML = formattedDomains;
